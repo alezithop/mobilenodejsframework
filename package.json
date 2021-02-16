@@ -1,0 +1,27 @@
+{
+  "name": "movilnodejsframework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js",
+    "webdriverio-mobile": "mocha ./features/dashboard/example.android.feature"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "appium": "^1.17.0",
+    "appium-doctor": "^1.9.0",
+    "assert": "^2.0.0",
+    "chai": "^4.1.2",
+    "cucumber": "^4.2.1",
+    "mocha": "^6.0.0",
+    "multiple-cucumber-html-reporter": "^1.12.1",
+    "wd": "^1.12.1",
+    "webdriverio": "^5.1.0"
+  },
+  "dependencies": {
+    "carthage": "^1.0.6",
+    "cucumber-html-reporter": "^5.0.0"
+  }
+}

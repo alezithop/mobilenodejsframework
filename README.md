@@ -1,14 +1,12 @@
 # mobilenodejsframework
 
 Download and install following:
-Java Development Kit (JDK): "1.8.0_282" (and set the environment variables)
-Android Studio (and set the environment variables)
-node: 10.18.0
-appium server: 1.19.1
+Java Development Kit (JDK): 1.8 or on ubuntu I have 1.8.0_282  (and set the environment variables)
+Android Studio latest version (and set the environment variables)
+node: 10.18.0 (https://nodejs.org/en/blog/release/v10.18.0/)
+appium server: 1.19.1 (https://github.com/appium/appium-desktop/releases/tag/v1.19.1)
 Have installed following app in the Android emulator: https://play.google.com/store/apps/details?id=com.bizale.cobradorapp
-Visual Studio Code
-
-And install following extensions for Visual Studio Code:
+Visual Studio Code latest version, and install following extensions on Extensions Market directly on Visual Studio Code:
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: Beautify
 Id: hookyqr.beautify

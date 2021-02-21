@@ -5,6 +5,7 @@ Java Development Kit (JDK): "1.8.0_282" (and set the environment variables)
 Android Studio (and set the environment variables)
 node: 10.18.0
 appium server: 1.19.1
+Have installed following app in the Android emulator: https://play.google.com/store/apps/details?id=com.bizale.cobradorapp
 Visual Studio Code
 
 And install following extensions for Visual Studio Code:

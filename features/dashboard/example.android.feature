@@ -7,5 +7,6 @@ Feature: As a test engineer I want to validate that app is launched correctly
 
     Scenario: As a test engineer I want to validate that I am able to close tutorial and see the Dashboard
         Given I start the app without close tutorial
+        When I wait for "6" seconds
         # Then I expect to see the clients tab
         Then I expect to see the "ui.screen.dashboard.buttons.add_client" tab

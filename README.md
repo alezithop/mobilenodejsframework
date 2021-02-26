@@ -40,7 +40,7 @@ After install Node JS and clone the repository execute the following command to 
 npm i
 ```
 
-##### Install extensions for VS Code
+#### Install extensions for VS Code
 
 Open Visual Studio Code and install following extensions on Extensions by searching them in Market directly on Visual Studio Code or by clicking in the following links:
 

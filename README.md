@@ -33,7 +33,7 @@ Download and install following:
 
 Have installed following app in the Android emulator: https://play.google.com/store/apps/details?id=com.bizale.cobradorapp
 
-##Cloning the repository
+## Cloning the repository
 
 After install Node JS and clone the repository execute the following command to install all the required dependecies (packages).
 ```

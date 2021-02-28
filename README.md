@@ -27,11 +27,9 @@ Check how to setup the environment variables depending the OS you're using [Set 
 [Get it here](https://code.visualstudio.com/)
 
 
-#### Download and install following app:
+#### Instructions to use the new app (Eribank) added in this repo:
 
-You need to use an emulator with PlayStore and gmail account set in the emulator to download the app.
-
-[Get it here](https://play.google.com/store/apps/details?id=com.bizale.cobradorapp)
+You need to edit the absolute path of your repo to recognize the app, the file features/helpers/get_driver.js, you just need to replace my absolute path until we find a way to work with relative path.
 
 ## Cloning the repository
 
@@ -63,3 +61,9 @@ Open Visual Studio Code and install following extensions on Extensions by search
 | XML Tools | Josh Johnson | [Get it](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml) |
 
 
+## Running a feature file to test your setup
+Execute below command pointing to the directory in a terminal:
+
+```
+npm run test --spec ./features/dashboard/example.android.feature
+```

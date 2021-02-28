@@ -12,13 +12,11 @@ const {
     options
 } = require('../helpers/get_driver');
 
-Given(/^I start the app without close tutorial$/, async () => {
+Given(/^I start the app without login$/, async () => {
     await driver.sleep(4000);
 });
 
-Given(/^I start the app and close tutorial$/, async () => {
-    await driver.sleep(4000);
-    const enteradoButton = eval(ui.screen.android.tutorial.buttons.enterado);
-    await driver.elementById(enteradoButton.self).click();
-    await driver.sleep(4000);
+Given(/^I start the app and I login$/, async () => {
+    await driver.sleep(8000);
+    // TODO: enter valid user and password then click on login button
 });

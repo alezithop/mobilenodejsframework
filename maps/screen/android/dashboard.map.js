@@ -1,30 +1,28 @@
 module.exports = {
     self: '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.support.v4.view.ViewPager/android.widget.LinearLayout',
+    text: {
+        your_balance_header: {
+            self: 'android=new UiSelector().className("android.view.View").descriptionContains("Your balance is")'
+        }
+    },
     buttons: {
-        reports: {
-            self: 'com.bizale.cobradorapp:id/ai_reports'
+        make_payment: {
+            self: 'com.experitest.ExperiBank:id/makePaymentButton'
         },
-        add_client: {
-            self: 'com.bizale.cobradorapp:id/ai_customer_add'
+        mortgage_request: {
+            self: 'com.experitest.ExperiBank:id/mortageRequestButton'
         },
-        more_options: {
-            self: 'android=new UiSelector().className("android.widget.ImageView").descriptionContains("opciones")'
+        expense_report: {
+            self: 'com.experitest.ExperiBank:id/expenseReportButton'
         },
-        clear_search: {
-            self: 'android=new UiSelector().resourceId("com.bizale.cobradorapp:id/ivClearSearch")'
+        logout: {
+            self: 'com.experitest.ExperiBank:id/logoutButton'
         }
     },
-    tabs: {
-        clients: {
-            self: 'android=new UiSelector().className("android.support.v7.app.ActionBar$Tab").description("Clientes")'
-        },
-        notes: {
-            self: 'new UiSelector().className("android.support.v7.app.ActionBar$Tab").description("Notas")'
-        }
-    },
-    textboxes: {
-        search: {
-            self: 'new UiSelector().resourceId("com.bizale.cobradorapp:id/inputSearch")'
+    images: {
+        header: {
+            // self: 'android=new UiSelector().className("android.widget.ImageView").instance(0)'
+            self: '//android.widget.ImageView'
         }
     }
 };
